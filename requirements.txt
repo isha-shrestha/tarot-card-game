@@ -1,0 +1,5 @@
+#installed libraries for this project
+random
+PIL
+Tkinter
+pytest
