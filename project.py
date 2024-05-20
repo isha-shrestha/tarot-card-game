@@ -33,7 +33,7 @@ def GUI():
     # the generated sequence is stored in this variable
 
     # generating sequence AKA shuffling
-    for card_num_ in range(1, 23):
+    for card_num_ in range(0, 22):
         card_num = str(card_num_)
         card_position_ = random.choice((0, 1))
         card_position = str(card_position_)
