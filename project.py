@@ -66,28 +66,18 @@ def GUI():
     title.place(x=0, y=200)
     text.place(x=0, y=225)
 
-    files = []
     btn = []
     msg_text = tk.Text(
         root, font=("Cambria", 12), fg="blue4", bg="gray1", borderwidth=0
     )
 
-    # def chosen_count():
-    #   k=4
-    #  k-=1
-    # display_text=f"choose {k} more cards!"
-    # msg_text.insert(tk.END, display_text)
-
     for i in range(0, 22):
-        files.append("Button" + str(i))
+        btn.append(tk.Button(image=card_image, command=lambda x=i:button_click(cards[x])))
 
-    for i in range(0, 22):
-        btn.append(tk.Button(image=card_image, command=lambda: button_click(cards[i])))
 
     for i in range(0, 22):
         btn[i].grid(row=0, column=i, columnspan=3)
 
-    # card_button0.bind(button_clicked)
 
     root.mainloop()
 
@@ -103,6 +93,7 @@ def GUI():
         card_number = int(card_number)
         reading_area = i
         reading.append([card_number, reading_area, sequence])
+
 
     general_card = reading[0][0]
     general_card_sequence = reading[0][2]
