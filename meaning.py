@@ -2,8 +2,7 @@
 #The format is as follows:
 #CardName=[{general:"",love:"",career:"",finance:""}//upright meaning in 0th element of list//
 #          {general:"",love:"",career:"",finance:""}//reverse meaning in 1st element of list//]
-
-#0
+#meanings from https://labyrinthos.co/blogs/tarot-card-meanings-list
 TheFool=[
     {
         "general":"To meet The Fool in a reading can be seen as a call to the risk taking part of your own character. He inspires courage, for he understands that every day is a chance to open up new areas in your life, and with that comes a mixture of anticipation, wonder, awe and curiosity. The Fool is there to show that you can never really tell what lies ahead, and you can only greet it with joy.",
