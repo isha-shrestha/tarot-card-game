@@ -2,7 +2,6 @@
 ## This project prompts the user to choose 4 cards and gives their tarot reading.<br/><br/>
 
 ### Meanings extracted from [this website][website_link]
-### [Check out my video][video_link]
 [website_link]:https://labyrinthos.co/blogs/tarot-card-meanings-list
 [video_link]:https://youtu.be/dw-V_Qdqtz0?si=HrDyq_Pf-MvtOUqL
  This project has a GUI interface that is built using the Tkinter library.<br/>
